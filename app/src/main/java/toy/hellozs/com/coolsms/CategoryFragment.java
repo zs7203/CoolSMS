@@ -21,7 +21,7 @@ public class CategoryFragment extends Fragment implements TagRecyclerViewAdapter
     private List<Tag> mTags = new ArrayList<>();
     private RecyclerView mRecyclerView;
     private TagRecyclerViewAdapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+    private GridLayoutManager mLayoutManager;
     private SMSApplication mApplication;
 
 
@@ -53,6 +53,12 @@ public class CategoryFragment extends Fragment implements TagRecyclerViewAdapter
         View view = inflater.inflate(R.layout.fragment_category, container, false);
         mRecyclerView = (RecyclerView) view.findViewById(R.id.id_tag_recyclerview);
         mLayoutManager = new GridLayoutManager(getActivity(),3);
+        mLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
+            @Override
+            public int getSpanSize(int position) {
+                return position == 0 ? 3 : 1;
+            }
+        });
         getCategoryTags();
         mAdapter = new TagRecyclerViewAdapter(getActivity(),mTags, this);
         mRecyclerView.setLayoutManager(mLayoutManager);
