@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "toy.hellozs.com.coolsms.SendMsgActivity"/>
+      <point      
+        x = "2616"      
+        y = "24"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "toy.hellozs.com.coolsms.MainActivity"/>
+      <point      
+        x = "148"      
+        y = "-24"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "toy.hellozs.com.coolsms.ChooseMsgActivity"/>
+      <point      
+        x = "1368"      
+        y = "24"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

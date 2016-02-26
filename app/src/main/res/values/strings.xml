@@ -1,0 +1,21 @@
+<resources>
+<string name="app_name">CoolSMS</string>
+<string name="app_detail">CoolSMS Ver 1.1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="responsibility">数据来源：http://www.xiha360.com/\nAPP仅供个人学习、研究之用，请勿用于商业用途.</string>
+
+    <string name="cat_shiyong">实用祝福</string>
+    <string name="cat_jieri">节日</string>
+    <string name="cat_jieqi">二十四节气</string>
+    <string name="cat_zhutiri">主题日</string>
+    <string name="cat_riqi">日期</string>
+    <string name="cat_qita">其他</string>
+
+    <string name="title_activity_choose_msg">短信列表</string>
+    <string name="title_activity_send_msg">编辑 发送短信</string>
+</resources>
